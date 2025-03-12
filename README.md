@@ -5,7 +5,7 @@
 
 **Smart OTC Auction Token ($SOTC)** is an on-chain **Over-the-Counter (OTC) trading system** built on **Solana**. It provides a **real-time, auction-based mechanism** for traders to place large buy/sell orders while liquidity providers bid to execute them at the best price.
 
-This program is developed using **Anchor** and **Solana Playground** and rewards market makers with **$SOTC tokens** for participation.
+This program is developed using **Anchor** and **Solana Playground** and was exported to **VSCODE**. Itrewards market makers with **$SOTC tokens** for participation.
 
 ---
 
