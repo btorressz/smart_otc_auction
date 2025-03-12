@@ -29,3 +29,36 @@ This program is developed using **Anchor** and **Solana Playground** and was exp
 ✅ **Upgradable Governance System**  
 
 ---
+
+
+## 🏗️ Smart Contract Structure
+
+### 1️⃣ **Auction Management**
+- `initialize` → Initializes the auction system.
+- `place_order` → Places a buy/sell order into an auction pool.
+- `place_bid` → Liquidity providers bid to execute the order.
+- `settle_auction` → Determines the winning bid and executes the trade.
+
+### 2️⃣ **Dynamic Bidding Rules**
+- **Slippage protection** prevents excessive bid deviations.
+- **Minimum bid increments** prevent frontrunning.
+- **Buy Now price option** enables instant settlement.
+
+### 3️⃣ **Multi-Asset Support**
+- Supports **multiple tokens** (SOL, USDC, USDT, etc.).
+- Cross-token bidding support (future integration with **oracles** like **Pyth**).
+
+### 4️⃣ **Reputation-Based Leaderboard**
+- Tracks **total trading volume, win rate, and response time**.
+- **Top-ranked traders and market makers** receive bonus rewards.
+
+### 5️⃣ **Flash Loan Prevention & Anti-Sybil**
+- **Staking Requirement**: Large trades require minimum staking.
+- **Time-Based Vesting**: $SOTC rewards are **locked** for a set period.
+
+### 6️⃣ **Upgradable & Governance-Controlled**
+- Admin/governance account can **update auction parameters**.
+- Future integration with **DAO governance** for decentralization.
+
+---
+
