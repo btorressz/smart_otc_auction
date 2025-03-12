@@ -1,3 +1,5 @@
+//test file that was orgianlly exported from solana playground
+//sill editing it
 import * as anchor from "@coral-xyz/anchor";
 import BN from "bn.js";
 import assert from "assert";
